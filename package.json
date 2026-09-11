@@ -1,0 +1,20 @@
+{
+  "name": "vet-clinica-tdd",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de atendimentos de uma clinica veterinaria - Projeto de TDD (Qualidade de Software)",
+  "main": "src/ClinicaService.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageDirectory": "coverage"
+  }
+}
